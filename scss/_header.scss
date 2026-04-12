@@ -1,9 +1,15 @@
 
-.navbar navbar-expand-lg bg-body-tertiary {
-    background-color: #2273c4;
-    padding: 1rem;
+header {
+    background-color: #dbd2d2;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    .logo {
+        height: 100px;
+        width: auto;
+    }
 }
 
-headr nav div img {
-    height: 50px;
-}
+

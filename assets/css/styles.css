@@ -10,13 +10,53 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.navbar navbar-expand-lg bg-body-tertiary {
-  background-color: #2273c4;
-  padding: 1rem;
+header {
+  background-color: #dbd2d2;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+header .logo {
+  height: 100px;
+  width: auto;
 }
 
-headr nav div img {
-  height: 50px;
+main .bienvenida .text-center {
+  background-color: #edeef0;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.grilla_ind {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.index {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 250px 250px;
+  gap: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+.index img {
+  width: 100%;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #edeef0;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {

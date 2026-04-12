@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/assets/img/Logo agresivo de MMA STORE.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="/assets/img/Logo agresivo de MMA STORE.png"
+                        alt="Logo del sitio" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -23,27 +24,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="/hero.html">Hero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown
+                                Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/productoDestacado.html">Producto Destacado</a></li>
+                                <li><a class="dropdown-item" href="/todosLosProductos.html">Todos los Productos</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -55,12 +52,80 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section class="bienvenida">
+            <p class="text-center mt-5">¡Bienvenido a MMA STORE! Tu destino definitivo para todo lo relacionado con las
+                artes marciales mixtas. En nuestra tienda, encontrarás una amplia selección de productos de alta calidad
+                diseñados para satisfacer las necesidades de los luchadores y entusiastas de las MMA. Desde guantes y
+                ropa de entrenamiento hasta equipo de protección y accesorios, tenemos todo lo que necesitas para llevar
+                tu pasión por las MMA al siguiente nivel. Explora nuestra colección y prepárate para dominar el octágono
+                con estilo y confianza.</p>
+        </section>
 
-    <footer></footer>
+        <section class="index">
+            <div>
+                <p><img src="assets/img/02-Post-Tagoya.jpg" alt=""></p>
+            </div>
+            <div>
+                <p><img src="assets/img/Ilia Topuria 102624.jpg.webp" alt=""></p>
+            </div>
+            <div>
+                <p><img src="assets/img/UFC-MMA-Topuria-vs-Oliveira.jpg" alt=""></p>
+            </div>
+            <div>
+                <p><img src="assets/img/zgKd-1zx8_2000x1500__1.jpg  " alt=""></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MMA STORE. Todos los derechos reservados.</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!--Toda esta seccion es para el index "Todos los Productos"-->
+<!-- <section class="grilla_ind">
+         <div class="grid-container">
+             <div class="card" style="width: 18rem;">
+                 <img src="assets/img/31849f46dc16fc10c0fbd06277b64cf72ee92ae4_HANDWRAPS_2.5_KONTACT_BLACK_GOLD_SD_03-460x552.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                     <h5 class="card-title">Vendas</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                         the card’s content.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+             </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+             <img src="assets/img/628808365d48ea337dcf21d5299c42cc4a70ed1e_VENUM_05757_109_G_01_474x.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+                 <h5 class="card-title">Botas</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                     card’s content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+             </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+             <img src="assets/img/D_NQ_NP_977302-MLA99228874431_112025-O.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+                 <h5 class="card-title">Guantes MMA Sparring</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                     card’s content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+             </div>
+         </div>
+         <div class="card" style="width: 18rem;">
+             <img src="assets/img/gemini_generated_image_hc5rl9hc5rl9hc5r-a8b96d069b599893d917728514226203-480-0.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+                 <h5 class="card-title">Shorts</h5>
+                 <p class="card-text">Unos shorts de entrenamiento para tu práctica diaria.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+             </div>
+         </div>
+     </section> -->
